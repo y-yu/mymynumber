@@ -1,0 +1,8 @@
+language: python
+sudo: false
+python:
+  - "2.7"
+install:
+  - pip install -r requirements.txt
+script:
+  - python my_number.py 93479799959879 8223444879420164426385980101043399
